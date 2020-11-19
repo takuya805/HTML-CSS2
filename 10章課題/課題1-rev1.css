@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    background-color:#FF9A4B;
+    height:50px;
+    margin-bottom:50px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    background-color: #EEEEEE;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    position: relative;
+    width:300px;
+}
+
+.heading{
+    background-color: #FF9A4B;
+    color:white;
+    position: absolute;
+    top:0px;
+    left:0px;
+
+}
+.img-box1{
+    background-image: url("chapter9_exercise/img/flow01.png");
+    height:150px;
+    margin:10px;
+    background-size:cover;
+    background-position:bottom;
+    width: 280px;
+}
+.img-box2{
+    background-image: url("chapter9_exercise/img/flow02.png");
+    width:280px;
+    height:150px;
+    margin:10px;
+    background-size:cover;
+    background-position:bottom;
+}
+.img-box3{
+    background-image: url("chapter9_exercise/img/flow03.png");
+    width:280px;
+    height:150px;
+    margin:10px;
+    background-size:cover;
+    background-position:center;
+}
+h3{
+    padding:15px 0 5px 0;
+}
+footer{
+    background-color: #AAAAAA;
+    height:50px;
+}
+@media screen and (max-width: 768px) {
+    main{
+        display: block;
+          
+    }
+    .box{
+        width: 90%;
+        margin:0 auto;
+        margin-bottom:20px;
+        padding-top:1px;
+    }
+    .img-box1{
+        width:auto;
+        background-position:center 85%;
+    }
+    .img-box2{
+        width:auto;
+        background-position:80% 74%;
+    }
+     .img-box3{
+      width:auto;
+      background-position:50% 70%;
+    }
+    footer{
+        margin-top:50px;
+    }
+}
